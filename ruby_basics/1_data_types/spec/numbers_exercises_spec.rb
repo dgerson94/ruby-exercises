@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 require_relative '../exercises/numbers_exercises'
 
-RSpec.describe 'Numbers Exercises' do
+RSpec.describe 'Numbers Exercises' do # rubocop:disable Metrics/BlockLength
 
   describe 'addition exercise' do
 
